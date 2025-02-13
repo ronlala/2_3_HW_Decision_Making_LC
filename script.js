@@ -30,4 +30,4 @@ if (otherSite === "yes"){
 };
 
 finalPrice = basePrice -((basePrice * 3)-(isTodayprice + searchEngineprice + otherSiteprice));
-console.log("The base price for the" + " " + itemName + " " + is + " " + "$" + basePrice + " "+ isTodayprice + " ");
+let finalMessage=("The base price for the" + " " + itemName + "is "  + "$" + basePrice + " "+ isTodaymessage + " "+searchEnginemessage+" " + otherSitemessge + " The final price is $"+finalPrice+".");
